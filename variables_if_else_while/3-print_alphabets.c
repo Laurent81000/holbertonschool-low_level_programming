@@ -9,10 +9,10 @@
 #include <stdio.h>
 int main(void)
 {
-	char alp[26] = "abcdefghijklmnopqrstuvwxyz";
+	char alp[57] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$";
 	int i;
 
-	for (i = 0; i < 26; i++)
+	for (i = 0; i < 57; i++)
 	{
 		putchar(alp[i]);
 	}
