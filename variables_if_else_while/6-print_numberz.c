@@ -1,5 +1,5 @@
 /**
- *main - prints all single digit numbers of base 10 starting from 0
+ *main - 10 starting from 0 - no variable char - 2 putchar function max
  *
  *Return: Always 0 (Success)
  */
@@ -9,24 +9,21 @@
 int main(void)
 {
 	int i = 0;
-	int j = 0;
 
 	while (i < 10)
 	{
-	j = i + '0'; /*convertir l'entier en caractère numérique*/
-	putchar(j);
-	i++;
-	}
-	putchar('\n'); /*afficher un caractère de nouvelle ligne*/
-
-	i = 0;
-	while (i < 10)
+	if (i < 10)
 	{
-	j = i + 10 + '0'; /*convertir l'entier en caractère numérique*/
-	putchar(j);
-	i++;
+	putchar(i + '0');
 	}
-	putchar('\n'); /*afficher un caractère de nouvelle ligne*/
+	else
+	{
+	putchar('1');
+	putchar((i % 10) + '0');
+	}
+	i++;
+}
 
+	putchar('\n');
 	return (0);
 }
