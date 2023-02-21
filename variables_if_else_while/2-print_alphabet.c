@@ -8,12 +8,12 @@
 
 int main(void)
 {
-        int i = 97;
+	int i = 97;
         /*Print lowercase letters*/
         while (i < 123)
         {
-                putchar(i);
-                i++;
+        putchar(i);
+        i++;
         }
 
         i = 65;
