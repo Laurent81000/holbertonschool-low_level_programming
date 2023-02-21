@@ -10,7 +10,7 @@ int main(void)
 {
 	int i = 97;
 	/*Print lowercase letters*/
-	while (i < 123) 
+	while (i < 123)
 	{
 		putchar(i);
 		i++;
@@ -19,7 +19,7 @@ int main(void)
 	i = 65;
 
 	/*Print uppercase letters*/
-	while (i < 91) 
+	while (i < 91)
 	{
 		putchar(i);
 		i++;
@@ -28,5 +28,5 @@ int main(void)
 	/*Print newline character*/
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
