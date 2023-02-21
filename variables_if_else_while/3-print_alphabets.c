@@ -1,21 +1,26 @@
 /**
  * main - Program that prints the alphabet in lowercase.
  *
- * source https://www.onlinegdb.com/online_c_compiler
- *
  * Return: Always 0 (Success)
  */
 
 #include <stdio.h>
-int main(void)
-{
-	char alp[54] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ$";
-	int i;
 
-	for (i = 0; i < 53; i++)
-	{
-		putchar(alp[i]);
-	}
-	putchar('\n');
-	return (0);
+int main(void) {
+    int i;
+
+    // Print lowercase letters
+    for (i = 97; i < 123; i++) {
+        putchar(i);
+    }
+
+    // Print uppercase letters
+    for (i = 65; i < 91; i++) {
+        putchar(i);
+    }
+
+    // Print newline character
+    putchar('\n');
+
+    return 0;
 }
