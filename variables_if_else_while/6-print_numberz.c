@@ -12,17 +12,17 @@ int main(void)
 
 	while (i < 10)
 	{
-	if (i < 10)
-	{
-	putchar(i + '0');
+		putchar(i + '0');
+		i++;
 	}
-	else
+
+	i = 10;
+	while (i < 20)
 	{
-	putchar('1');
-	putchar((i % 10) + '0');
+		putchar('1');
+		putchar((i % 10) + '0');
+		i++;
 	}
-	i++;
-}
 
 	putchar('\n');
 	return (0);
