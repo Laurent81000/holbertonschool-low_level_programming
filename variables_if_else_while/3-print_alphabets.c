@@ -1,5 +1,5 @@
 /**
- * main - Program that prints the alphabet in lowercase.
+ * main - Program that prints the alphabet.
  *
  * Return: Always 0 (Success)
  */
@@ -7,19 +7,23 @@
 #include <stdio.h>
 
 int main(void) {
-    int i;
+    int i = 97;
 
-    // Print lowercase letters
-    for (i = 97; i < 123; i++) {
+    /* Print lowercase letters */
+    while (i < 123) {
         putchar(i);
+        i++;
     }
 
-    // Print uppercase letters
-    for (i = 65; i < 91; i++) {
+    i = 65;
+
+    /* Print uppercase letters */
+    while (i < 91) {
         putchar(i);
+        i++;
     }
 
-    // Print newline character
+    /* Print newline character */
     putchar('\n');
 
     return 0;
