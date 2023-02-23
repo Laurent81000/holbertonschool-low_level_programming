@@ -20,5 +20,5 @@ int main(void)
 	/* Print newline character */
 		putchar('\n');
 
-	return 0;
+	return (0);
 }
