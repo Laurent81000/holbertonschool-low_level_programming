@@ -13,10 +13,15 @@ int main(void)
 	for (numbers = 0; numbers <= 9; numbers++)
 	{
 		putchar(numbers + '0');
-		putchar(' ');
+
 		if (numbers < 9)
 		{
 			putchar(',');
+		}
+
+		else if (numbers <= 9)
+		{
+			putchar(' ');
 		}
 	}
 
