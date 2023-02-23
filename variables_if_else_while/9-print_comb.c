@@ -19,7 +19,7 @@ int main(void)
 			putchar(',');
 		}
 
-		else if (numbers <= 9)
+		if (numbers <= 9)
 		{
 			putchar(' ');
 		}
