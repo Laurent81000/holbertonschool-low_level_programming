@@ -1,5 +1,5 @@
 /**
- *main - Task
+ *main - prints _putchar
  *
  *Return: Always 0 (Success)
  */
