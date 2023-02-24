@@ -14,7 +14,6 @@ void print_alphabet_x10(void)
 	while (x10 <= 10)
 
 	{
-		x10++;
 		/*Print lowercase letters*/
 		while (i < 123)
 		{
@@ -22,6 +21,8 @@ void print_alphabet_x10(void)
 			i++;
 		}
 		/*Print newline character*/
+		i = 97;
+		x10++;
 		_putchar('\n');
 	}
 }
