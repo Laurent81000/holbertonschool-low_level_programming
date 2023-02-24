@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - alphabet - prototype
+ * alphabet: prototype
  *
  * Return: Always 0 (Success)
  */
