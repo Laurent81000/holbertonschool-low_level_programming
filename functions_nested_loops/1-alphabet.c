@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_alphabet: alphabet prototype
- * description : Write a function that prints the alphabet
+ * print_alphabet - alphabet prototype
+ *
  * Return: Always 0 (Success)
  */
 
