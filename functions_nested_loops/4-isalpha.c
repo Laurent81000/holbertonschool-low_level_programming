@@ -2,10 +2,8 @@
 
 /**
  * _isalpha -  function that checks for alphabetic character
- * @c: the caracter to check
- *
- * Description: a lowercase character is lowercase or uppercase
- * Return: 1 if c is alphabetic, 0 otherwise
+ * Description - a lowercase character is lowercase or uppercase
+ * Return - 1 if c is alphabetic, 0 otherwise
  */
 int _isalpha(int c)
 {
