@@ -2,7 +2,7 @@
 
 /**
  * int _abs -  absolute value
- * @c: the number to check
+ * @aNumbers: the number to check
  *
  * Description: absolute value is always positive
  * Return: aNumber is the absolute value
