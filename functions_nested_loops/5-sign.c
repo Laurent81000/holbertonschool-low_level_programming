@@ -2,7 +2,7 @@
 
 /**
  * print_sign - print the sign of a number
- * @result: the result to return
+ * @n: number
  * Description: print the sign of a number
  * Return: 1 is true, 0 is false
  */
@@ -29,5 +29,5 @@ int print_sign(int n)
 		result = -1;
 	}
 
-	return(result);
+	return (result);
 }
