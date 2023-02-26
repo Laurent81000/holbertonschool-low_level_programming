@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * print_sign -  print the sign of a number
- * 
- * Description - print the sign of a number
- * Return - 1 is true, 0 is false 
+ * print_sign - print the sign of a number
+ * @result: the result to return
+ * Description: print the sign of a number
+ * Return: 1 is true, 0 is false
  */
 int print_sign(int n)
 {
