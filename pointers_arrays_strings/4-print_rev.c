@@ -7,7 +7,7 @@
 void print_rev(char *s)
 {
 	int i;
-	
+
 	i = 0;
 	/* pointeur vers tableau de caractères - print a string */
 	while (s[i] != '\0')
