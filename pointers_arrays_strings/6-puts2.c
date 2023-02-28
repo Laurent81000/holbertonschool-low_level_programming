@@ -8,7 +8,7 @@
  * Return: void
  */
 void puts2(char *str)
-{ 
+{
 	int i = 0;
 
 	while (str[i] != '\0')
@@ -21,7 +21,7 @@ void puts2(char *str)
 		else
 		{
 		}
-		i ++;
-	}        
+		i++;
+	}
 	_putchar('\n');
 }
