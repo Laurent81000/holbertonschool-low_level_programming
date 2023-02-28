@@ -2,11 +2,9 @@
 #include <stdio.h>
 
 /**
- * puts2 - Prints every other character of a string.
- * @str: The string to print
- *
- * Description: prints every other (1/2) character of a string
- * Return: void
+ * print_array - Prints n elements of an array of integers
+ * @a: Pointer to the first element of the array
+ * @n: Number of elements to print
  */
 void print_array(int *a, int n)
 {
