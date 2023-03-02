@@ -9,20 +9,20 @@
  */
 char *_strcat(char *dest, char *src)
 {
-    int i = 0; 
-	j = 0;
+	int i = 0; 
+	int j = 0;
 
-    while (dest[i] != '\0') /* find the end of dest string */
-        i++;
+	while (dest[i] != '\0') /* find the end of dest string */
+		i++;
 
-    while (src[j] != '\0') /* copy src string to end of dest string */
-    {
-        dest[i] = src[j];
-        i++;
-        j++;
-    }
+	while (src[j] != '\0') /* copy src string to end of dest string */
+	{
+		dest[i] = src[j];
+		i++;
+		j++;
+	}
 
-    dest[i] = '\0'; /* add null terminator to end of resulting string */
+	dest[i] = '\0'; /* add null terminator to end of resulting string */
 
-    return dest;
+	return dest;
 }
