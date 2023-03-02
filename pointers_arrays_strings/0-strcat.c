@@ -9,7 +9,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int i = 0; 
+	int i = 0;
 	int j = 0;
 
 	while (dest[i] != '\0') /* find the end of dest string */
@@ -24,5 +24,5 @@ char *_strcat(char *dest, char *src)
 
 	dest[i] = '\0'; /* add null terminator to end of resulting string */
 
-	return dest;
+	return (dest);
 }
