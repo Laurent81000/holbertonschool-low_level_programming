@@ -11,11 +11,11 @@ char *string_toupper(char *str)
 {
 	int i = 0;
 
-	while (str[i] != '\0') 
+	while (str[i] != '\0')
 	{
-		if (islower(str[i])) /* fonction islower pour vérifier si le caractère est minuscule */
+		if (islower(str[i])) /* fn islower vérifie minuscule */
 		{
-			str[i] = toupper(str[i]); /* fonction toupper pour convertir le caractère en majuscule */
+			str[i] = toupper(str[i]); /* fn toupper converti en maj */
 		}
 		i++;
 	}
