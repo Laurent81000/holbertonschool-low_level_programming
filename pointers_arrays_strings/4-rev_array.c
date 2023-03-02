@@ -2,7 +2,7 @@
 
 /**
  * reverse_array - Reverses a string - same ex5
- * 
+ *
  * @a: array
  * @n: The string to be reversed
  */
