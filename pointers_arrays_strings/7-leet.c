@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * lett_str - 
- * @str: 
+ * leet - Encodes a string into 1337
+ * @str: The string to encode
  *
- * Return: a pointer to the capitalized string
+ * Return: A pointer to the encoded string
  */
 
 char *leet(char *str)
@@ -15,11 +15,11 @@ char *leet(char *str)
 	int i;
 	int j;
 
-	for (i = 0; i < 5; i++) 
+	for (i = 0; i < 5; i++)
 	{
-		for (j = 0; str[j] != '\0'; j++) 
+		for (j = 0; str[j] != '\0'; j++)
 		{
-			if (str[j] == normal_chars[i] || str[j] == normal_chars[i] - 32) 
+			if (str[j] == normal_chars[i] || str[j] == normal_chars[i] - 32)
 			{
 				leet_str[j] = leet_chars[i];
 			}
