@@ -3,6 +3,7 @@
 /**
  * draw_line - draws a line of the triangle
  * @width: of the line, strictly positive
+ * @num_spaces: leading spaces before the #
  *
  * Description: does nothing if width negative or null.
  */
