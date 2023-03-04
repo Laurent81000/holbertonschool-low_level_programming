@@ -16,7 +16,7 @@ void print_diagonal(int n)
 	{
 		_putchar('\n');
 	}
-	
+
 	spaces = n;
 
 	for (; n > 0; n--)
@@ -28,7 +28,7 @@ void print_diagonal(int n)
 }
 
 /**
- * print_space_line - Prints a  line of 
+ * print_space_line - Prints a  line of
  * spaces with the specified length.
  * @n: number of occurrences of the space
  *
