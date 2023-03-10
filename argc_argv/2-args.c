@@ -17,10 +17,10 @@ int main(int argc, char *argv[])
 	/* Print all other arguments */
 	for (i = 1; i < argc; i++)
 	{
-		printf("%s\n", argv[i]);
+		printf("%s", argv[i]);
 
-		/* Print a new line after each argument */
-		printf("\n");
+		if (i != argc - 1)
+			printf("\n");
 	}
 
 	return (0);
