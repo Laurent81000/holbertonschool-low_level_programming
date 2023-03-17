@@ -1,5 +1,3 @@
-#include "main.h"
-#include <stdio.h>
 #include <stdlib.h>
 
 /**
@@ -35,14 +33,3 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	return (str); 
 }
-
-int main(void)
-{
-	char *concat;
-
-	concat = string_nconcat("Best ", "School !!!", 5);
-	printf("%s\n", concat);
-	free(concat);
-	return (0);
-}
-
