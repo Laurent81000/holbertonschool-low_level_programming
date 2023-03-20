@@ -7,17 +7,17 @@
  * @age: age of the dog
  * @owner: name of the dog's owner
  *
- * Source: PDF, Doc Holberton, personal manual
  */
-struct dog
+typedef struct dog
 {
 	char *name;
 	float age;
 	char *owner;
-};
+}dog_t;
 
+/* Exercices 1 et 2
 void init_dog(struct dog *d, char *name, float age, char *owner);
 void print_dog(struct dog *d);
-/* sert aux exercices suivants */
+*/
 
-#endif
+#endif /* DOG_H*/
