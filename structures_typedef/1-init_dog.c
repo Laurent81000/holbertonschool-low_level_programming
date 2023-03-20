@@ -10,6 +10,10 @@
  * @name: name of the dog
  * @age: age of the dog
  * @owner: owner of the dog
+ *
+ * source: https://openclassrooms.com/fr/
+ * courses/19980-apprenez-a-programmer-en-c
+ * /16119-creez-vos-propres-types-de-variables
  */
 void init_dog(struct dog *d, char *name, float age, char *owner)
 {
