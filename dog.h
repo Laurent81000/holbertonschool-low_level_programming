@@ -9,7 +9,6 @@
  *
  * Source: PDF, Doc Holberton, personal manual
  */
-
 struct dog
 {
 	char *name;
