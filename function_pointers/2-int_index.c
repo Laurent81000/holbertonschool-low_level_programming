@@ -13,12 +13,12 @@ int int_index(int *array, int size, int (*cmp)(int))
 {
 	int i;
 
-	if(size <= 0)
+	if (size <= 0)
 		return (-1); /* Donné dans l'énoncé */
 
 	for (i = 0; i < size; i++) /* Boucle à travers le tableau */
 	{
-		if (cmp(array[i]) !=0) /* Fonction de comparaison */
+		if (cmp(array[i]) != 0) /* Fonction de comparaison */
 			return (i);
 	}
 	return (-1); /* Si aucun élément n'est trouvé */
