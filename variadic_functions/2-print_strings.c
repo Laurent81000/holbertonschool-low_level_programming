@@ -3,10 +3,11 @@
 #include <stdlib.h>
 
 /**
- * print_string - print strings, followed by a new line
- * @separatof: the string to be printed between the string
+ * print_strings - print strings, followed by a new line
+ * @separator: the string to be printed between the strings
  * @n: the number of strings passed to the function
  */
+
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	va_list args;
@@ -17,12 +18,12 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	for (i = 0; i < n; i++)
 	{
-		str = va_arg(args const char*);
+		str = va_arg(args, const char *);
 		if (str)
 			printf("%s", str);
 		else
 			printf("(nil)"); /* Consigne - If one of the string is NULL, print (nil) */
-		if(separator && i < (n - 1))
+		if (separator && i < (n - 1))
 			printf("%s", separator);
 	}
 	putchar('\n');
